@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div>
+      <h2>Mobile Operating System</h2>
+      <ul>
+      <li>Android</li>
+      <li>Blackberry</li>
+      <li>iPhone</li>
+      <li>Windows Phone</li>
+      </ul>
+      </div>
+
+      <div>
+        <h2>Mobile Manufacturers</h2>
+        <ul>
+      <li className='squarebullet'>Samsung</li>
+      <li className='squarebullet'>HTC</li>
+      <li>Micromax</li>
+      <li className='circlebullet'>Apple</li>
+      </ul>
+      </div>
     </div>
   );
 }
